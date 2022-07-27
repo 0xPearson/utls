@@ -9,8 +9,6 @@ import (
 	"testing"
 )
 
-
-// 7
 func TestSignatureSelection(t *testing.T) {
 	rsaCert := &testRSAPrivateKey.PublicKey
 	ecdsaCert := &testECDSAPrivateKey.PublicKey
